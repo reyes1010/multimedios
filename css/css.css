@@ -122,6 +122,10 @@ header{
    border-style: none;
    border-radius: 5px;
    padding: 5px 2px;
+
+}
+.alinear-icon:last-of-type{
+    margin-top: 35px;
 }
 
 .contenedor .contenedor-individual p{
@@ -167,20 +171,16 @@ form{
     border-style: none;
     border-radius: 5px;
     padding: 10px 9px;
-    margin-top: 20px;
+    margin-top: 30px;
     text-align: center;
     text-transform: uppercase;
     color: rgb(255, 255, 255);
     font-weight: 900;
-    background-color: black;
-    border-style: solid;
+    background: rgb(29,85,253);
+    background: linear-gradient(90deg, rgba(29,85,253,1) 0%, rgba(131,58,180,1) 50%, rgba(252,69,203,1) 100%); 
+
     border-width: 0.1px;
   
-}
-
-.login button:hover{
-    background-color:darkred;
-    color: white;
 }
 
 
